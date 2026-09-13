@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #cccccc;
+}
+
+/* Header */
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #d4af37;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+/* Buttons */
+
+.btn {
+  background-color: #d4af37;
+  color: #1a1a1a;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #b8942d;
+}
+
+/* Hero section */
+
+.hero {
+  background-color: #1a1a1a;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/* About section */
+
+.about {
+  padding: 60px 0;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+}
+
+/* Factions section */
+
+.factions {
+  padding: 60px 0;
+  background-color: #1a1a1a;
+}
+
+.factions-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.faction-card {
+  background-color: #262626;
+  padding: 30px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Heroes section */
+
+.heroes {
+  padding: 60px 0;
+}
+
+.heroes-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-card {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+/* CTA section */
+
+.cta {
+  background-color: #1a1a1a;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0d0d0d;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #262626;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+}
